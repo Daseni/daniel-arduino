@@ -1,4 +1,4 @@
-PARPADEO
+//PARPADEO
 void setup() {
   pinMode(13, OUTPUT);}
   void loop() {
@@ -10,7 +10,7 @@ void setup() {
   
   
   
-  METODO PARPADEO
+  //METODO PARPADEO
   void parpadeo (int time){
     digitalWrite(13, HIGH);
     delay(time)
@@ -18,13 +18,13 @@ void setup() {
     delay(time);
   }
   
-  SUMA
+  //SUMA
   void suma(int value){
     int suma = value + 100;
     return suma;
   }
   
-  INGRESAR POR TECLADO ALGO
+  //INGRESAR POR TECLADO ALGO
   String inString ="";
   void setup(){
     Serial.println(9600);
